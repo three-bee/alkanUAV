@@ -102,4 +102,4 @@ sim_vehicle.py -v ArduCopter -f gazebo-iris -I1 --console --out 127.0.0.1:14563
 sim_vehicle.py -v ArduCopter -f gazebo-iris -I2 --console --out 127.0.0.1:14573
 rqt_image_view
 ```
-There should be no conflictions of images in rqt_image_view and no error message should be shown in roslaunch terminal.
+There should be no conflictions of images in rqt_image_view and no error message should appear in roslaunch terminal.
