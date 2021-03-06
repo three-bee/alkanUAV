@@ -95,9 +95,12 @@ gedit multi_drone_with_camera.launch
 
 ## Testing
 ```
+#All in different terminals
+
 roslaunch iq_sim multi_drone_with_camera.launch
 sim_vehicle.py -v ArduCopter -f gazebo-iris -I0 --console --out 127.0.0.1:14553
 sim_vehicle.py -v ArduCopter -f gazebo-iris -I1 --console --out 127.0.0.1:14563
+sim_vehicle.py -v ArduCopter -f gazebo-iris -I2 --console --out 127.0.0.1:14573
 rqt_image_view
 ```
 There should be no conflictions of images in rqt_image_view and no error message should be shown in roslaunch terminal.
