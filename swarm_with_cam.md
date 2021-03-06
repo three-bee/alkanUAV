@@ -6,7 +6,6 @@
   * Installing QGroundControl
   * Installing Gazebo and ArduPilot Plugin [18.04-20.04]
   * Installing ROS and MAVROS [20.04]
-  * Introduction to ROS and ROS Tools for Drone Development
   * Drone Swarms with Ardupilot
 
 ## Changing necessary files
@@ -89,7 +88,7 @@ cp multi_drone.launch multi_drone_with_camera.launch
 
 gedit multi_drone_with_camera.launch
 
-# Change the line 4 with below line:
+# Change line 4 with below line:
 # <arg name="world_name" value="$(find iq_sim)/worlds/multi_drone_with_camera.world"/>
 ```
 
