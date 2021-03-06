@@ -6,7 +6,7 @@
 * This tutorial file is an extension of [Introduction to Ros for Autonomous Drones](https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/ros_intro.md) in order to avoid a few problems and make it suitable for the swarm scenario with cameras.
   * Follow above tutorial until you run into a problem concerning ```apm.launch``` file. You should end up with a looping text inside the terminal.
     * If no problem occurs, safely skip to "Creating a new ```multi-apm_with_camera.launch``` for drone swarm with cameras". **Do not change the udp adresses in that case**. 
-## Fix for ```apm.launch```
+## Fix for ```apm.launch``` & ```multi-apm.launch```
 ```
 cd ~/catkin_ws/src/iq_sim/launch/
 
@@ -14,6 +14,9 @@ gedit apm.launch
 
 # Change (Line 5) with below line:
 # <arg name="fcu_url" default="udp://127.0.0.1:14551@" />
+
+gedit multi-apm.launch
+# Similarly, change the udp adresses for all drones such that it ends with @
 ```
 ## Creating a new ```multi-apm_with_camera.launch``` file for drone swarm with cameras
 ```
