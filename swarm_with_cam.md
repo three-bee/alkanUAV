@@ -22,6 +22,7 @@ cp -r drone_with_camera drone3_with_camera
 ```
 Below procedure is shown for the first drone. Repeat for all three in their corresponding model folder.
 ```
+cd ~/catkin_ws/src/iq_sim/models/
 cd drone1_with_camera
 gedit model.config
 
@@ -99,4 +100,4 @@ sim_vehicle.py -v ArduCopter -f gazebo-iris -I0 --console --out 127.0.0.1:14553
 sim_vehicle.py -v ArduCopter -f gazebo-iris -I1 --console --out 127.0.0.1:14563
 rqt_image_view
 ```
-There should be no conflictions of images in rqt_img_view and no error message should be shown in roslaunch terminal.
+There should be no conflictions of images in rqt_image_view and no error message should be shown in roslaunch terminal.
