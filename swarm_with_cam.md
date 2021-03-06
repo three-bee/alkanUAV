@@ -1,4 +1,4 @@
-# Drone swarm with camera
+# Drone Swarm with Camera
 
 ## Prerequisites
 * This is based on Intelligent Quads' work. Clone the repo from [here](https://github.com/Intelligent-Quads/iq_tutorials). Then, follow the tutorials:
