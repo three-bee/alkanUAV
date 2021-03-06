@@ -79,7 +79,7 @@ gedit multi_drone_with_camera.world
 # Change as above. 
 # Model name and uri needs to be the same as the name of the model folders we just copied in a few steps ago.
 ```
-multi_drone_with_camera.world will now spawn the drones with cameras. Now, create the launch file which will run the new world file.
+```multi_drone_with_camera.world``` will now spawn 3 drones with cameras. Now, create the launch file which will run the new world file.
 ```
 cd ~/catkin_ws/src/iq_sim/launch/
 
