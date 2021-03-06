@@ -4,8 +4,8 @@
 * This is based on Intelligent Quads' work. Clone the repo from [here](https://github.com/Intelligent-Quads/iq_tutorials). Then, follow the tutorials:
   * [Drone swarm with camera](https://github.com/3b83/siha_sim/blob/main/swarm_with_cam.md)
 * This tutorial file is an extension of [Introduction to Ros for Autonomous Drones](https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/ros_intro.md) in order to avoid a few problems and make it suitable for the swarm scenario with cameras.
-  * Follow above tutorial until you run into a problem concerning ```multi-apm_with_camera.launch``` file. You should end up with a looping text inside the terminal.
-    * If no problem occurs, safely skip to "Creating a new ```apm.launch``` for drone swarm with cameras". **Do not change the udp adresses in that case**. 
+  * Follow above tutorial until you run into a problem concerning ```apm.launch``` file. You should end up with a looping text inside the terminal.
+    * If no problem occurs, safely skip to "Creating a new ```multi-apm_with_camera.launch``` for drone swarm with cameras". **Do not change the udp adresses in that case**. 
 ## Fix for ```apm.launch```
 ```
 cd ~/catkin_ws/src/iq_sim/launch/
