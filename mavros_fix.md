@@ -65,7 +65,7 @@ Change ```ns``` and ```fcu_url``` params for each drone. You should end up with 
 	</node>
 </launch>
 ```
-Notice that ```ns``` parameters take cloned model names of the drones with camera.
+Notice that ```ns``` parameters take cloned model names of drones with cameras.
 
 ## Testing
 ```
