@@ -1,4 +1,4 @@
-# alkan
+# alkanUAV
 Repository of METU ALKAN UAV Team.
 Includes simulation related files &amp; documentations. Mostly based on [Intelligent-Quads' tutorials](https://github.com/Intelligent-Quads/iq_tutorials) with additional fixes and tutorials.
 
