@@ -1,6 +1,6 @@
-# siha_sim
+# alkan
 Repository of METU ALKAN UAV Team.
-Includes simulation related files &amp; documentations for SİHA (dogfight UAV). Mostly based on [Intelligent-Quads' tutorials](https://github.com/Intelligent-Quads/iq_tutorials) with additional fixes and tutorials.
+Includes simulation related files &amp; documentations. Mostly based on [Intelligent-Quads' tutorials](https://github.com/Intelligent-Quads/iq_tutorials) with additional fixes and tutorials.
 
 ## Tutorials & Fixes
 * [Drone Swarm with Camera - Tutorial](https://github.com/3b83/siha_sim/blob/main/swarm_with_cam.md)
